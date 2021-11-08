@@ -1,0 +1,97 @@
+body {
+    font-family : 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    width: 100ch;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+fieldset {
+    margin: 20px 0;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+legend {
+    padding-right: 10px;
+}
+
+form {
+    width: 100%;
+}
+
+.radio {
+    margin-top: 15px;
+    margin-left: -5px;
+}
+
+.radio:last-of-type {
+    margin-bottom: 15px;
+}
+
+input[type="submit"] {
+    font-family : 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    padding : 5px 45px;
+}
+
+.correction {
+    display: flex;
+    justify-content: space-between;
+}
+
+.correction:last-of-type {
+   margin-bottom: 15px;
+}
+
+.correction > div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+span {
+    display: inline-block;
+    width: 30px;
+    margin-left: 50px;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+.choosen {
+    background-color: #eee;
+    border-radius: 4px;
+}
+
+.result {
+    font-weight: bold;
+    text-align: left;
+}
+
+.msg-result {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.ok, .lavel-top {
+    color: green;  
+}
+
+.no , .lavel-null{
+    color: brown;
+}
+
+.lavel-medium {
+    color: orange;
+}
+
+.error {
+    font-weight: bold;
+    color: brown;
+    margin-bottom: 15px;
+}
+
